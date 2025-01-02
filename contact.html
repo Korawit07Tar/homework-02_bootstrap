@@ -30,3 +30,33 @@
         </div>
         </div>
     </nav>
+    <main class="container py-5">
+        <section>
+            <h2 class="mb-4 text-center">ส่งข้อความถึงเรา</h2>
+            <form action="/submit" method="POST" role="form" aria-label="แบบฟอร์มติดต่อ">
+                <div class="mb-3">
+                    <label for="fullname" class="form-label">ชื่อ-นามสกุล *</label>
+                    <input type="text" class="form-control" id="fullname" name="fullname" required aria-required="true" minlength="2" maxlength="100" aria-describedby="fullname-help">
+                    <small id="fullname-help" class="form-text text-muted">กรุณากรอกชื่อและนามสกุลจริง</small>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">อีเมล *</label>
+                    <input type="email" class="form-control" id="email" name="email" required aria-required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" aria-describedby="email-help">
+                    <small id="email-help" class="form-text text-muted">ตัวอย่าง: example@domain.com</small>
+                </div>
+                <div class="mb-3">
+                    <label for="tel" class="form-label">เบอร์โทรศัพท์</label>
+                    <input type="tel" class="form-control" id="tel" name="tel" pattern="[0-9]{10}" aria-describedby="tel-help">
+                    <small id="tel-help" class="form-text text-muted">กรอกหมายเลข 10 หลัก ไม่ต้องมีขีด เช่น 0812345678</small>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">ข้อความ *</label>
+                    <textarea class="form-control" id="message" name="message" required aria-required="true" minlength="10" rows="5" aria-describedby="message-help"></textarea>
+                    <small id="message-help" class="form-text text-muted">กรุณากรอกข้อความอย่างน้อย 10 ตัวอักษร</small>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">ส่งข้อความ</button>
+                </div>
+            </form>
+        </section>
+    </main>
