@@ -241,3 +241,22 @@ h1 {
 .nav-link:hover {
     color: #d5d5e5 !important;
 }
+/* Card Component */
+.card {
+    box-shadow: 0 4px 8px rgba(128, 120, 120, 0.883);
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: none;
+    border-radius: 12px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(241, 114, 11, 0.931);
+}
+
+.card-img-top {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 121px;
+    height: 250px;
+    object-fit: cover;
+}
