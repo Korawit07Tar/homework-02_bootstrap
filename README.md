@@ -1,1 +1,83 @@
-# homework-02_bootstrap f
+# homework-02_bootstrap 
+- git checkout -b development
+- git add .
+- git commit -m "สร้างโครงสร้างโปรเจ็ค"
+- git checkout -b feature/home-page
+- git add .\index.html
+- git commit -m "เพิ่มโครงสร้างเว็บและลิ้งค์"
+- git add .\index.html
+- git commit -m "เพิ่มส่วน body และ menu" 
+- git add .\index.html
+- git commit -m "เพิ่มส่วน Hamburger menu"     
+- git add .\index.html
+- git commit -m "เพิ่มส่วน Search"        
+- git add .\index.html
+- git commit -m "เพิ่มส่วน bootstrap แสดงภาพเนื้อหาเลื่อนอัตโนมัติหรือคลิก"
+- git add .\index.html                                   
+- git commit -m "เพิ่มส่วนเนื้อหาข้างในภาพและคำอธิบายพร้อมปุ่มคลิกไปหน้าต่อไป"อคลิก"
+- git add .\index.html                                   
+- git commit -m "เพิ่มส่วนท้าย Footer"                    
+- git add .\index.html
+- git commit -m "เพิ่มส่วน script JAVAscript Bootstrap CSS Bootstrap JS"
+ 
+- git checkout -b feature/about 
+- git add .\about.html                                   
+- git commit -m "เพิ่มโครงสร้างเว็บและลิ้งค์"                
+- git add .\about.html
+- git commit -m "เพิ่มส่วน body และ menu"                
+- git add .\about.html
+- git commit -m "เพิ่มส่วน Hamburger menu"               
+- git add .\about.html
+- git commit -m "เพิ่มส่วน Search"                       
+- git add .\about.html                                 
+- git commit -m "แสดงรายการสถานที่และ Grid ปรับเปลี่ยนตามขนาดหน้าจอ"
+- git add .\about.html
+- git commit -m "เพิ่มส่วน card รูปภาพและข้อมูลสถานที่"               
+- git add .\about.html
+- git commit -m "เพิ่มส่วนท้าย Footer"
+- git add .\about.html
+- git commit -m "เพิ่มส่วน script JAVAscript Bootstrap CSS Bootstrap JS"
+
+- git checkout -b feature/contact
+- git add .\contact.html
+- git commit -m "เพิ่มโครงสร้างเว็บและลิ้งค์" 
+- git add .\contact.html
+- git commit -m "เพิ่มส่วน body และ menu"
+- git add .\contact.html
+- git commit -m "เพิ่มส่วน Hamburger menu"
+- git add .\contact.html
+- git commit -m "เพิ่มส่วน contact ชื่อ-นามสกุล อีเมล เบอร์โทรศัพท์ และข้อความ พร้อมกับกล่องส่งข้อความ"
+- git add .\contact.html
+- git commit -m "เพิ่มส่วนท้าย Footer"
+- git add .\contact.html
+- git commit -m "เพิ่มส่วน script JAVAscript Bootstrap CSS"
+             
+- git checkout -b feature/css     
+- git add .\css\styles.css
+- git commit -m "จัดส่วน body และ nav ให้เหมาะสมตามความต้องการ"
+- git add .\css\styles.css
+- git commit -m "จัดส่วนและปรับขนาด logo Menu ให้เหมาะสม"
+- git add .\css\styles.css
+- git commit -m "จัดส่วนและปรับขนาด Hamburger ให้เหมาะสมและแสดง Hamburger"
+- git add .\css\styles.css
+- git commit -m "ปรับขนาด Hamburger ให้เหมาะกับขนาดอุปกรณ์ต่างๆ"            
+- git add .\css\styles.css
+- git commit -m "ปรับฟอนต์เฉพาะส่วน Carousel"                
+- git add .\css\styles.css
+- git commit -m "ปรับขนาดรูปภาพให้เหมาะกับอุปกรณ์ต่างๆ Index.html"
+- git add .\css\styles.css
+- git commit -m "ปรับขนาดและจัดตำแหน่งของ footer"
+- git add .\css\styles.css
+- git commit -m "ปรับขนาดและจัดตำแหน่งของ ข้อมูลสถานที่และภาพในหน้า about"
+- git add .\css\styles.css
+- git commit -m "ปรับขนาดข้อความของ card และสีข้อความ"
+- git add .               
+- git commit -m "แก้ไขข้อมูลนิดหน่อย"
+
+- git checkout -b feature/java-script
+- git add .\script.js
+- git commit -m "เพิ่ม script java-script ส่วนของ Hamburger"
+
+- git checkout -b feature/image
+- git add .       
+- git commit -m "เพิ่ม รูปภาพ"
