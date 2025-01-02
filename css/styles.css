@@ -191,3 +191,53 @@ footer {
     font-size: 14px;
     color: #777;
 }
+/* forms */
+.text-center{
+    font-family: "Mitr", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #d47f00;
+}
+.mb-3{
+    font-family: "Mitr", sans-serif
+}
+/*about Styles */ 
+h1 {
+    font-family: "Mitr", sans-serif;
+    font-size: 2.5rem;
+    color: #474747;
+    font-weight: bold;
+}
+
+.card-title {
+    font-family: "Mitr", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #060606;
+}
+
+.card-text {
+    font-family: "Mitr", sans-serif;
+    font-size: 1rem;
+    color: #4e4f50;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    color: #000000 !important;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #d5d5e5 !important;
+}
