@@ -108,3 +108,16 @@ nav{
         background: linear-gradient(to right, rgb(246, 191, 171), rgb(255, 153, 0));
     }
 }
+/* ปรับฟอนต์เฉพาะส่วน Carousel */
+.carousel-caption h5 {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem; /* กำหนดขนาดฟอนต์ */
+}
+
+.carousel-caption p {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+    font-size: 1rem; /* ขนาดฟอนต์ย่อมกว่า */
+    line-height: 1.5;
+}
