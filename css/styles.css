@@ -121,3 +121,11 @@ nav{
     font-size: 1rem; /* ขนาดฟอนต์ย่อมกว่า */
     line-height: 1.5;
 }
+@media only screen and (max-width: 603px){
+    .carousel-inner img {
+        width: 100%;
+        height: 260px; 
+        object-fit: cover; 
+        object-position: center;
+    }
+}
