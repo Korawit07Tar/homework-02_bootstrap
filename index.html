@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-page Lopburi</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Charm:wght@400;700&family=Fredericka+the+Great&family=Inder&family=Mitr:wght@200;300;400;500;600;700&family=Rubik+Doodle+Shadow&display=swap"
+        rel="stylesheet">
+</head>
+<header>
+</header>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-wrapper">
+            <img class="logo" src="image/lopburi-logo.png" alt="Lopburi Logo">
+            <ul class="menu" id = "myMenu">
+                <li><a  href="index.html">Home</a></li>
+                <li><a  href="about.html">Tourist attraction</a></li>
+                <li><a  href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hammenu" onclick="toggleHam(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+        </div>
+        </div>
+    </nav>
+    <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+    <main class="main-content">
+        <section>
+            <!-- Bootstrap Carousel -->
+            <div id="lopburiCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#lopburiCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#lopburiCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#lopburiCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="image/Lopburi.png" class="d-block w-100" alt="Lopburi Image 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>ยินดีต้อนรับสู่ลพบุรี</h5>
+                            <p>ดินแดนแห่งประวัติศาสตร์และธรรมชาติ</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/Phra Prang Sam Yot.jpg" class="d-block w-100" alt="Lopburi Image 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>พระปรางค์สามยอด</h5>
+                            <p>แหล่งโบราณสถานอันทรงคุณค่า</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/Sunflower buoy.jpg" class="d-block w-100" alt="Lopburi Image 3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>ทุ่งดอกทานตะวัน</h5>
+                            <p>ความงามธรรมชาติในฤดูหนาว</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#lopburiCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#lopburiCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+          <div class="grid">
+            <div>
+              <h3>เกี่ยวกับเรา</h3>
+              <p>ลพบุรี เมืองเก่าแก่ที่เต็มไปด้วยร่องรอยของอดีต ชวนคุณเดินทางย้อนเวลาไปสัมผัสพระปรางค์สามยอด ศาลพระกาฬ และพระนารายณ์ราชนิเวศน์ อันทรงคุณค่า</p>
+            </div>
+            <div>
+              <h3>ลิงก์ด่วน</h3>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Tourist attraction</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3>ติดต่อ</h3>
+              <ul>
+                <li>อีเมล: 66160017@gmail.com</li>
+                <li>โทร: (123) 107-4847</li>
+              </ul>
+            </div>
+            <div>
+              <h3>ติดตามเรา</h3>
+              <div class="socials">
+                <a href="#">Twitter</a>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="script.js"></script>
+    <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
